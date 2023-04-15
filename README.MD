@@ -1,6 +1,6 @@
 # Automate ordering in Meesho
 
-> 1. You can order any one item from Meesho under 1 minute using this script  
+> 1. You can order any one item from Meesho under 1 minute or might be 30-40 seconds too, using this script.  
 > 2. You just need 3 inputs - the item link, your phone number & OTP, which is obviously needed to login to your account.  
 > 3. After every step, this script takes screenshot which'll give you clear idea in case you're getting any error.  
 > 4. The pre-requisites you need to run this script is present in [prerequisites.txt](prerequisites.txt) file.  
