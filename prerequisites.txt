@@ -1,0 +1,4 @@
+User should have previously ordered something from Meesho
+User need to put OTP within 20 seconds
+
+NOTE:- Currently you need to click on Continue button after putting Phone Number.

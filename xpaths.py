@@ -1,0 +1,13 @@
+xpath_buyNow = "//span[text()='Buy Now']"
+xpath_price = "//*[@id='__next']/div[3]/div/div[2]/div[1]/div[1]/h4"
+xpath_rating = "//*[@id='__next']/div[3]/div/div[2]/div[1]/div[2]/span/span[1]/span"
+xpath_productDetails = "//*[@id='__next']/div[3]/div/div[2]/div[3]"
+xpath_phoneNumber = "//*[@id='__next']/div[4]/div/div[2]/div/div/div[2]/input"
+xpath_continueBtn = "//button"
+xpath_continue = "//*[@id='__next']/div[4]/div/div[2]/div/button/div/span"
+xpath_continueBtn_address = "//*[@id='__next]/div[4]/div/div[2]/div/button"
+xpath_continueBtn_payment = "//*[@id='__next']/div[3]/div/div[2]/div[2]/div[2]/div/button/div/span"
+xpath_placeOrder = "//*[@id='__next']/div[3]/div/div[3]/div[2]/div[2]/div/button/div/span"
+xpath_deliverToThisAddress = "//*[@id='__next']/div[3]/div/div/div[1]/div[2]/div/div[2]/div/button/div/span"
+xpath_deliverToThisAddress_ = "//span[text()='Deliver to this Address']"
+
