@@ -11,7 +11,7 @@ from xpaths import *
 
 # ======================================================
 url = 'https://www.meesho.com/s/p/4azq7t'
-phoneNumber = "9113797199"
+phoneNumber = "YOUR_PHONE_NUMBER"
 # ======================================================
 
 opt = webdriver.ChromeOptions()
