@@ -19,7 +19,7 @@
 > 1. This project is ready to be upgraded for more features.  
 > 2. Pull Requests are welcomed, but make sure it doesn't have any merge issues.  
 
-# Issues
+# Open Issues
 
 1. Currently, one issue is present in this project. You need to manually click on Continue button after putting the phone number which is I'm working on.  
 
