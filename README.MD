@@ -21,7 +21,7 @@
 
 # Open Issues
 
-1. Currently, one issue is present in this project. You need to manually click on Continue button after putting the phone number which is I'm working on.  
+1. No issues as of now. But it's open to all. You can run it locally & [Raise Issues](https://github.com/nitinkumar30/automate-item-order-in-meesho/issues/new/choose). 
 
 
 # Author
