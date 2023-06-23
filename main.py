@@ -1,4 +1,4 @@
-# Automate the order doing in Meesho
+# Automate the ordering process of Meesho
 
 from selenium.webdriver.common.keys import Keys
 import chromedriver_autoinstaller
@@ -10,7 +10,7 @@ import time
 from xpaths import *
 
 # ======================================================
-url = 'https://www.meesho.com/s/p/4azq7t'
+url = 'https://www.meesho.com/reditor-20000-mah-power-banks/p/4r0xa2'
 phoneNumber = "YOUR_PHONE_NUMBER"
 # ======================================================
 
@@ -22,7 +22,14 @@ browser = webdriver.Chrome(options=opt)
 browser.get(url)
 print('URL navigated')
 
+
+time.sleep(2)
+browser.save_screenshot('images/1.png')
+browser.find_element(By.XPATH, xpath_moreInfo).click()
+print("More Information button clicked")
+
 # ======================================================
+
 price = browser.find_element(By.XPATH, xpath_price).text
 rating = browser.find_element(By.XPATH, xpath_rating).text
 productDetails = browser.find_element(By.XPATH, xpath_productDetails).text
@@ -47,22 +54,29 @@ print("Phone number inserted")
 
 time.sleep(2)
 browser.save_screenshot('images/3.png')
-# browser.find_element(By.XPATH, xpath_continueBtn)
-browser.find_element(By.XPATH, xpath_continue)
+browser.find_element(By.XPATH, xpath_continueBtnLogin).click()
 print("Continue button clicked")
 
 time.sleep(20)
 browser.save_screenshot('images/4.png')
-browser.find_element(By.XPATH, xpath_deliverToThisAddress_).click()
-print("Continue button in Address tab clicked")
+browser.find_element(By.XPATH, xpath_selectDeliveryAddress).click()
+print("Select Delivery address button in Address tab clicked")
+
 
 time.sleep(2)
 browser.save_screenshot('images/5.png')
+browser.find_element(By.XPATH, xpath_deliverToThisAddress_).click()
+print("Deliver to this address button in Address tab clicked")
+
+time.sleep(2)
+browser.save_screenshot('images/6.png')
+
+
 browser.find_element(By.XPATH, xpath_continueBtn_payment).click()
 print("Continue button in Payment tab clicked")
 
 time.sleep(2)
-browser.save_screenshot('images/6.png')
+browser.save_screenshot('images/7.png')
 browser.find_element(By.XPATH, xpath_placeOrder).click()
 print("Place Order button clicked")
 
